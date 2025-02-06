@@ -28,7 +28,7 @@ The solubility data in this repository are collected and curated from multiple p
 📂 dataset/
  ├── aqd_dataset.csv        # Solubility data for anthraquinone derivatives
  ├── drug_dataset.csv       # Solubility data for drug-like compounds
- ├── metadata.json          # Description of dataset fields and sources
+ ├── README.md              # Description of dataset folder
 ```
 ## Example Data Format
 
