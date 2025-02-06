@@ -1,6 +1,6 @@
-# Solubility Prediction Dataset in ScCO₂
+# Solute Solubility Datasets in ScCO₂
 
-This repository contains a curated dataset for solubility prediction of solutes in supercritical CO₂ (ScCO₂). The dataset is compiled from multiple published studies and includes anthraquinone derivatives (AQDs) and drug-like compounds (Drugs), aiming to facilitate research in data-driven solubility modeling.
+This repository contains datasets of solubility data of solutes in supercritical CO₂ (ScCO₂). The datasets are compiled from multiple published studies and include anthraquinone derivatives (AQDs) and drug-like compounds (Drugs), aiming to facilitate research in data-driven solubility modeling.
 
 ## Dataset Overview
 
@@ -37,11 +37,11 @@ The solubility data in this repository are collected and curated from multiple p
 | C1=CC=C2C(=O)C=CC(=O)C2=C1 | [0.23, -0.45, 0.89, ...] | 313.15        | 10.0         | -5.21   |
 | C1=CC=C(C=C1)C=O        | [0.12, -0.34, 0.76, ...] | 323.15        | 12.5         | -4.85   |
 
-- **Readout Vector**: The readout vector is a learned representation from the MPNN model, which is used in sigma profile prediction. It captures structural and physicochemical features of the molecule.
+- **Readout Vector**: The readout vector is a learned representation from the MPNN model, used in sigma profile prediction. It captures the structural and physicochemical features of the molecule.
 
 ## Usage
 
-To use the dataset, simply clone the repository:
+To use the dataset, clone the repository:
 
 ```bash
 git clone https://github.com/yuchiaochu/Solubility_data.git
