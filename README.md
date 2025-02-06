@@ -26,8 +26,8 @@ The solubility data in this repository are collected and curated from multiple p
 ## File Structure
 ```plaintext
 📂 dataset/
- ├── 28AQD_database.csv        # Solubility data for anthraquinone derivatives
- ├── 96Drug_database.csv       # Solubility data for drug-like compounds
+ ├── 28AQD_dataset.csv        # Solubility data for anthraquinone derivatives
+ ├── 96Drug_dataset.csv       # Solubility data for drug-like compounds
  ├── README.md              # Description of dataset folder
 ```
 ## Example Data Format
@@ -50,8 +50,8 @@ Then, load the dataset in Python using pandas:
 ```python
 import pandas as pd
 
-aqd_df = pd.read_csv("dataset/28AQD_database.csv")
-drug_df = pd.read_csv("dataset/96Drug_database.csv")
+aqd_df = pd.read_csv("dataset/28AQD_dataset.csv")
+drug_df = pd.read_csv("dataset/96Drug_dataset.csv")
 
 print(aqd_df.head())
 print(drug_df.head())
