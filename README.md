@@ -21,8 +21,6 @@ The solubility data in this repository are collected and curated from multiple p
 > *Your Name et al.*  
 > Journal Name, Year. DOI: [Your DOI]  
 
-(For a complete reference list, please check `metadata.json`.)
-
 ## File Structure
 ```plaintext
 📂 dataset/
