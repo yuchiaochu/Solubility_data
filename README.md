@@ -19,11 +19,18 @@ The solubility data in this repository are collected and curated from multiple p
 
 > **[Your Paper Title]**  
 > *Your Name et al.*  
-> Journal Name, Year. DOI: [Your DOI]
+> Journal Name, Year. DOI: [Your DOI]  
+
 (For a complete reference list, please check `metadata.json`.)
 
 ## File Structure
-### Example Data Format
+```plaintext
+📂 dataset/
+ ├── aqd_dataset.csv        # Solubility data for anthraquinone derivatives
+ ├── drug_dataset.csv       # Solubility data for drug-like compounds
+ ├── metadata.json          # Description of dataset fields and sources
+```
+## Example Data Format
 
 | SMILES                  | Readout                 | Temperature (K) | Pressure (MPa) | LOG(y) |
 |-------------------------|-------------------------|---------------|--------------|---------|
@@ -38,4 +45,27 @@ To use the dataset, simply clone the repository:
 
 ```bash
 git clone https://github.com/yuchiaochu/Solubility_data.git
+```
+Then, load the dataset in Python using pandas:
+```python
+import pandas as pd
+
+aqd_df = pd.read_csv("dataset/aqd_dataset.csv")
+drug_df = pd.read_csv("dataset/drug_dataset.csv")
+
+print(aqd_df.head())
+print(drug_df.head())
+```
+
+## Citation
+```BibTex
+@article{YourCitation,
+  author    = {Your Name and Others},
+  title     = {Solubility Prediction of Anthraquinone Derivatives and Drug-like Compounds in ScCO₂ Using a Graph-Based Deep Learning Framework},
+  journal   = {Your Journal},
+  year      = {202X},
+  doi       = {Your DOI}
+}
+```
+
 
