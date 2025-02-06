@@ -37,7 +37,7 @@ The solubility data in this repository are collected and curated from multiple p
 | C1=CC=C2C(=O)C=CC(=O)C2=C1 | [0.23, -0.45, 0.89, ...] | 313.15        | 10.0         | -5.21   |
 | C1=CC=C(C=C1)C=O        | [0.12, -0.34, 0.76, ...] | 323.15        | 12.5         | -4.85   |
 
-- **Readout Vector**: The readout vector is a learned representation from the MPNN model, used in sigma profile prediction. It captures the structural and physicochemical features of the molecule.
+- **Readout Vector**: The readout vector is a 200-dimensional molecular representation, learned from the MPNN model during sigma profile prediction. It captures the structural and physicochemical features of the molecule.
 
 ## Usage
 
